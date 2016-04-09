@@ -1,0 +1,26 @@
+CREATE DATABASE BOOK;
+USE BOOK;
+CREATE TABLE INFOIT(BID CHAR(20),BNAME CHAR(100),ANAME CHAR(50),EDITION CHAR(50),PUBLISHER CHAR(100),ISBN INT(50));
+INSERT INTO INFOIT(BID,BNAME,ANAME,EDITION,PUBLISHER) VALUES ("B001","Applied Mathematics","V.K. Parashar","First Edition","GALGOTIA PUB PVT LTD.","8175156198");
+INSERT INTO INFOIT(BID,BNAME,ANAME,EDITION,PUBLISHER) VALUES ("B002","Differential Calculus","Gorakh Prasad","Fifth Edition","POTISHALA LTD.","8175156198");
+INSERT INTO INFOIT(BID,BNAME,ANAME,EDITION,PUBLISHER) VALUES ("B003","Integral Calculus","Gorakh Prasad","Third Edition","POTISHALA LTD.","8175156198");
+INSERT INTO INFOIT(BID,BNAME,ANAME,EDITION,PUBLISHER) VALUES ("B004","Fundamentals of Physics","David Halliday, Robert Resnick and Jearl Walker","Sixth Edition","Wiley","9780471320005");
+INSERT INTO INFOIT(BID,BNAME,ANAME,EDITION,PUBLISHER) VALUES ("B005","Physics Part I","David Halliday and Robert Resnick","First Edition","Bharati Bhawan Pub. & Dis.","9788177091878");
+INSERT INTO INFOIT(BID,BNAME,ANAME,EDITION,PUBLISHER) VALUES ("B006","Physics Part II","David Halliday and Robert Resnick","Second Edition","Bharati Bhawan Pub. & Dis.","9788177092325");
+INSERT INTO INFOIT(BID,BNAME,ANAME,EDITION,PUBLISHER) VALUES ("B007","Concepts of Physics Vol. I & II","H. C. Verma","Fifth Edition","POTISHALA LTD.","8175156198");
+INSERT INTO INFOIT(BID,BNAME,ANAME,EDITION,PUBLISHER) VALUES ("B008","Polytechnic Chemistry","Ved Prakash Mehta","Tenth Edition","JAIN BROTHERS","9788183600934");
+INSERT INTO INFOIT(BID,BNAME,ANAME,EDITION,PUBLISHER) VALUES ("B009","Basic Applied Chemistry","P.C. Jain & Monica Jain","Sixteenth Edition","DHANPAT RAI PUBLICATIONS","9788187433170");
+INSERT INTO INFOIT(BID,BNAME,ANAME,EDITION,PUBLISHER) VALUES ("B010","Electronic Devices & Circuits","Bogart","Sixth Edition","PEARSON EDUCATION","0131111426");
+INSERT INTO INFOIT(BID,BNAME,ANAME,EDITION,PUBLISHER) VALUES ("B011","Basic Electronics & Linear Circuits","N.N. Bhargava","Second Edition","Tata McGraw - Hill Education","9383286601");
+INSERT INTO INFOIT(BID,BNAME,ANAME,EDITION,PUBLISHER) VALUES ("B012","Principles of Electronics","V.K. Mehta","Eleventh Edition","S CHAND","9788121924504");
+INSERT INTO INFOIT(BID,BNAME,ANAME,EDITION,PUBLISHER) VALUES ("B013","Microelectronics","Millman & Grabel","Second Edition","Mcgraw-Hill  College","9780070423305");
+INSERT INTO INFOIT(BID,BNAME,ANAME,EDITION,PUBLISHER) VALUES ("B014","Electronic Devices and Circuits","R. Boylestad and L. Nashelsky","Ninth Edition","Prentice Hall","9780131189058");
+INSERT INTO INFOIT(BID,BNAME,ANAME,EDITION,PUBLISHER) VALUES ("B015","Microelectronic Circuits","S. Sedra and K. C. Smith","Sixth Edition","Oxford Univ Press","9780195323030");
+INSERT INTO INFOIT(BID,BNAME,ANAME,EDITION,PUBLISHER) VALUES ("B016","Fundamentals of Computer","Raja Raman V","Fifth Edition","PHI","9788120340114");
+INSERT INTO INFOIT(BID,BNAME,ANAME,EDITION,PUBLISHER) VALUES ("B017","Computer Primer","Satish Jain","Fifth Edition","PHI","9788120340114");
+DROP TABLE security;
+CREATE TABLE security ( Email VARCHAR(50) NOT NULL, pass VARCHAR(40) NOT NULL, PRIMARY KEY(Email) );
+INSERT INTO 
+security (Email, pass) 
+VALUES
+("mrbool","mrbool123");
